@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/guillermopastorinirivas.github.io/noticias/static/css/main.5facb584.chunk.css",
+    "main.js": "/guillermopastorinirivas.github.io/noticias/static/js/main.ba0815fd.chunk.js",
+    "main.js.map": "/guillermopastorinirivas.github.io/noticias/static/js/main.ba0815fd.chunk.js.map",
+    "runtime-main.js": "/guillermopastorinirivas.github.io/noticias/static/js/runtime-main.95d20f03.js",
+    "runtime-main.js.map": "/guillermopastorinirivas.github.io/noticias/static/js/runtime-main.95d20f03.js.map",
+    "static/js/2.c2caf1a5.chunk.js": "/guillermopastorinirivas.github.io/noticias/static/js/2.c2caf1a5.chunk.js",
+    "static/js/2.c2caf1a5.chunk.js.map": "/guillermopastorinirivas.github.io/noticias/static/js/2.c2caf1a5.chunk.js.map",
+    "index.html": "/guillermopastorinirivas.github.io/noticias/index.html",
+    "precache-manifest.2d64ba096c17ac8e02e0cb6c23bc0b48.js": "/guillermopastorinirivas.github.io/noticias/precache-manifest.2d64ba096c17ac8e02e0cb6c23bc0b48.js",
+    "service-worker.js": "/guillermopastorinirivas.github.io/noticias/service-worker.js",
+    "static/css/main.5facb584.chunk.css.map": "/guillermopastorinirivas.github.io/noticias/static/css/main.5facb584.chunk.css.map",
+    "static/js/2.c2caf1a5.chunk.js.LICENSE.txt": "/guillermopastorinirivas.github.io/noticias/static/js/2.c2caf1a5.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/guillermopastorinirivas.github.io/noticias/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95d20f03.js",
+    "static/js/2.c2caf1a5.chunk.js",
+    "static/css/main.5facb584.chunk.css",
+    "static/js/main.ba0815fd.chunk.js"
+  ]
+}
