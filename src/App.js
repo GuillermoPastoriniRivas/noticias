@@ -14,7 +14,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		fetch('http://newsapi.org/v2/everything?q=argentina&pageSize=100&language=es&sortBy=publishedAt&apiKey=97488189a6614f30b543d6e0375fa045')
+		fetch('http://newsapi.org/v2/everything?q=argentina&pageSize=99&language=es&sortBy=publishedAt&apiKey=97488189a6614f30b543d6e0375fa045')
 			.then(res => res.json())
 			.then(json => {
 				this.setState({
@@ -24,8 +24,10 @@ class App extends Component {
 			});
 	}
 
-	render() {
+	
 
+	render() {
+		
 		var { isLoaded, items } = this.state;
 		if (!isLoaded) {
 			return <div>Cargando noticias</div>
@@ -43,10 +45,9 @@ class App extends Component {
 									<h3 className="mb-2"><a target="_blank" href={item.url}>{item.title}</a></h3>
 									<div className="meta-wrap">
 										<p className="meta">
-											<span><i className="icon-calendar mr-2"></i>Sept. 10, 2019</span>
+											<span><i className="icon-calendar mr-2"></i>Sep, 10 2019</span>
 											<span><a href={item.url}><i
-												className="icon-folder-o mr-2"></i>Travel</a></span>
-											<span><i className="icon-comment2 mr-2"></i>5 Comment</span>
+												className="icon-folder-o mr-2"></i>Noticias</a></span>
 										</p>
 									</div>
 									<p className="mb-4">{item.content=== null ? item.description : item.content} </p>
